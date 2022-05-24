@@ -31,7 +31,7 @@ const background = Container({
       position: Position.absolute,
       top: "50%",
       transform: "translateX(-50%)",
-      transition: "3.5s"
+      transition: "5.5s"
     }),
     Container({
       id: "top-gr-bg-cl",
