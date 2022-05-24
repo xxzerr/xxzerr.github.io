@@ -20,7 +20,7 @@ const background = Container({
       position: Position.absolute,
       top: "47%",
       left: "40%",
-      transition: "3.5s",
+      transition: "5.5s",
     }),
     Container({
       id: "left-lg-bg-cl",
