@@ -77,7 +77,7 @@ const ProfileView = Container({
   id: "profile-view",
   children: [
     Container({
-      child: Image.Asset("images/Ryve.jpg", {
+      child: Image.Asset("images/xxzerr.jpg", {
         id: "profile-picture",
         opacity: "0.95",
         // size: Size(130, 130),
@@ -473,7 +473,7 @@ const NavbarView = Container({
 const FooterView = Center({
   id: "footer",
   children: [
-    Text("IG: @xx.zerrr.", {
+    Text("IG: @xx.zerrr", {
       fontFamily: "Poppins",
       paddingTop: 10,
       paddingBottom: 10,
