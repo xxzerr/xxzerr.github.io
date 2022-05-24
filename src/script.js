@@ -5,7 +5,7 @@ body.style.width = "100vw";
 body.style.overflowX = "hidden";
 body.style.backgroundColor = "#202020";
 
-const myname = ["Reyhan", "xxzer"];
+const myname = ["Reyhan", "xxzerr"];
 let isNavbarActive = false;
 
 const background = Container({
@@ -20,7 +20,7 @@ const background = Container({
       position: Position.absolute,
       top: "47%",
       left: "40%",
-      transition: "5.5s",
+      transition: "3.5s",
     }),
     Container({
       id: "left-lg-bg-cl",
@@ -31,7 +31,7 @@ const background = Container({
       position: Position.absolute,
       top: "50%",
       transform: "translateX(-50%)",
-      transition: "5.5s"
+      transition: "3.5s"
     }),
     Container({
       id: "top-gr-bg-cl",
