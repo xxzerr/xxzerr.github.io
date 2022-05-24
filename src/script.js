@@ -5,7 +5,7 @@ body.style.width = "100vw";
 body.style.overflowX = "hidden";
 body.style.backgroundColor = "#202020";
 
-const myname = ["Arif", "Ryve"];
+const myname = ["Reyhan", "xxzer"];
 let isNavbarActive = false;
 
 const background = Container({
@@ -96,7 +96,7 @@ const ProfileView = Container({
       alignItems: AlignItems.center,
       children: [
         Text(`Halo, saya `, {}),
-        Text("Arif", {
+        Text("Reyhan", {
           id: "name",
           marginLeft: "7px"
         }),
@@ -125,7 +125,7 @@ const ProfileView = Container({
       id: "profile-bio",
       transition: ".7s",
       child: Text(
-        "Saya adalah seorang pelajar kelas IX di SMP Kartika IV-8, saya juga mempelajari bahasa pemrograman untuk mengisi waktu luang.", {
+        "Saya adalah seorang pelajar kelas IX di SMPN 111 Jakarta, saya juga mempelajari bahasa pemrograman untuk mengisi waktu luang.", {
           fontFamily: "Manrope",
           color: Colors.white,
           fontWeight: "100",
@@ -345,7 +345,7 @@ const SchoolView = Container({
           borderRadius: "10px",
           backgroundColor: Colors.green
         }),
-        Text("Berikut Tempat sekolah saya", {
+        Text("Berikut tempat sekolah saya", {
           paddingTop: 5,
           width: 200,
           textAlign: TextAlign.center,
@@ -368,8 +368,8 @@ const SchoolView = Container({
       alignItems: AlignItems.center,
       width: "100vw",
       children: [
-        generateImageBox("images/SD.jpg", "SDN Lowokwaru 3", "Saya telah menyelesaikan pendidikan ini pada 2019"),
-        generateImageBox("images/SMP.jpg", "SMP Kartika IV-8", "Saat ini saya sedang menduduki bangku SMP, dan saya akan lulus pada tahun ini, 2022", "smpkartika48-mlg.sch.id"),
+        generateImageBox("images/SD.jpg", "SDN 01 Tanjung Duren Utara", "Saya telah menyelesaikan pendidikan ini pada 2019"),
+        generateImageBox("images/SMP.jpg", "SMPN 111 Jakarta", "Saat ini saya sedang menduduki bangku SMP, dan saya akan lulus pada tahun ini, 2022", "https://sekolah.data.kemdikbud.go.id/index.php/chome/profil/20e5ea95-2bf5-e011-bebd-8b2b265de72b"),
       ]
     })
   ]
@@ -473,7 +473,7 @@ const NavbarView = Container({
 const FooterView = Center({
   id: "footer",
   children: [
-    Text("Made By Ryve.", {
+    Text("IG: @xx.zerrr.", {
       fontFamily: "Poppins",
       paddingTop: 10,
       paddingBottom: 10,
@@ -768,7 +768,7 @@ ID("albums-button").onclick = () => {
     const pwInput = ID("password-input").value;
 
     if(usInput && pwInput) {
-      if(usInput == "qrnd" && pwInput == "180507") {
+      if(usInput == "xxzer" && pwInput == "230801") {
         Alert("Login success");
       } else {
         Alert("Invalid!");
