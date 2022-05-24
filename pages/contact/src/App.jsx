@@ -16,7 +16,7 @@ function App() {
     <>
       <center>
         <div className={"profile-header"}>
-          <img src={"Ryve.jpg"} className={"profile-picture"}></img>
+          <img src={"xxzerr.jpg"} className={"profile-picture"}></img>
           <p style={{margin: 0}} className={"profile-username"}>{username}</p>
         </div>
       </center>
