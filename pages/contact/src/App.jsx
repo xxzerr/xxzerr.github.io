@@ -5,12 +5,12 @@ function App() {
     console.log(("init links"));
     return (() => console.log("links has been initialized"))
   })
-  const [username, setUsername] = React.useState("Arif");
+  const [username, setUsername] = React.useState("Reyhan");
   const lists = [
     {name: "Profile", link: "/index.html"}, 
-    {name: "Instagram", link: "https://www.instagram.com/ryve.alns"}, 
-    {name: "Github", link: _404},
-    {name: "Email", link: _404}
+    {name: "Instagram", link: "https://www.instagram.com/xx.zerrr"}, 
+    {name: "Github", link: "https://github.com/xxzerr"},
+    {name: "Discord", link: "https://discord.com/users/395519218235211778"}
   ];
   return (
     <>
