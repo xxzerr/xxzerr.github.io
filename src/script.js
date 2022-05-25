@@ -182,7 +182,6 @@ function generateSkillBox(id, imageSrc, title, message, link) {
 
 const SkillView = Container({
   id: "skill-view",
-  marginTop: 10,
   width: "100vw",
   fontFamily: "Poppins",
   display: Display.flex,
@@ -192,9 +191,6 @@ const SkillView = Container({
   color: Colors.white,
   children: [
     Container({
-      id: "skill-header",
-      transition: "1s",
-      opacity: "0",
       children: [
         Text("Skill", {
           fontSize: 24,
@@ -204,9 +200,9 @@ const SkillView = Container({
         Text("", {
           width: "130%",
           opacity: "0.4",
-          height: "1px",
+          height: "3px",
           borderRadius: "10px",
-          backgroundColor: Colors.red
+          backgroundColor: Colors.green
         }),
         Text("I'm a beginner", {
           paddingTop: 5,
@@ -214,9 +210,9 @@ const SkillView = Container({
           textAlign: TextAlign.center,
           fontWeight: 200,
           fontSize: 14,
-        })
+        }),
       ],
-      paddingBottom: 20,
+      paddingBottom: 25,
       width: "100px",
       display: Display.flex,
       flexDirection: Direction.column,
