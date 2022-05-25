@@ -202,7 +202,7 @@ const SkillView = Container({
           opacity: "0.4",
           height: "3px",
           borderRadius: "10px",
-          backgroundColor: Colors.green
+          backgroundColor: Colors.red
         }),
         Text("I'm a beginner", {
           paddingTop: 5,
